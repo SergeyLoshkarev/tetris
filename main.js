@@ -104,7 +104,6 @@ tetris.block.canExist = function(coord){
 	var itog = true;
 	for(var i = 0; i < coord.length; i++)
 	{	coord[i][5].y = 0;
-		console.log();
 		for(var j = 0; (j < coord[i].length); j++){
 			if( (tetris.plan[coord[i][j].y][coord[i][j].x] == 1) /*|| 
 				( (coord[i][j].y / tetris.cellSize >>0) >= tetris.highPlan ) ||
