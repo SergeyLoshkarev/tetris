@@ -1,0 +1,17 @@
+#plan{
+	border: 3px solid black;
+/*	background: #000000; */
+}
+
+#name, #plan{
+
+	margin: 50%, 10%;
+}
+
+a{	
+	width: 100px;
+	height: 100px;
+	background: #FF0000;
+	text-decoration: none;
+	color: #000000;
+}
